@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.banner, footer{
+    display: flex;
+    background-color: sienna;
+    color: white;
+    height: 150px;
+}
+
+.banner > .pierwszy, footer > .frst{
+    width: 40%;
+}
+
+.banner > .drugi, footer > .scnd{
+    width: 50%;
+    font-size: 150%;
+}
+.banner > .trzeci, footer > .trd{
+    width: 10%;
+    text-align: center;
+}   
+
+.content{
+    background-color: tan;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    border: 1px dashed sienna;
+    background-color: tan;
+    color: sienna;
+    padding: 40px;
+    line-height: 150px;
+}
+
+li{
+    list-style-type: circle;
+}
